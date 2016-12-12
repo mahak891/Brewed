@@ -1,0 +1,9 @@
+uuid: 69d7bf8f-c1c1-4f52-8a2e-9d2aa74a650c
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: vocab_category
+description: ''
+hierarchy: 0
+weight: 0

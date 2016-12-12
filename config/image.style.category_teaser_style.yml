@@ -1,0 +1,7 @@
+uuid: a80c3960-6f06-43b7-963d-8b4296e2d442
+langcode: en
+status: true
+dependencies: {  }
+name: category_teaser_style
+label: 'Category teaser style'
+effects: {  }

@@ -1,0 +1,10 @@
+global-styling:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Dancing+Script:700: { type: external }
+      css/basic_layout.css: {}
+      css/animate.css: {}
+  js:
+    javascripts/brewed_animations.js: {}
+    javascripts/wow.js: {}
+

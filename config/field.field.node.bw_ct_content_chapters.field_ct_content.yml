@@ -1,0 +1,28 @@
+uuid: 546d4d8d-da96-4825-ba48-62a16fa5bd33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_content
+    - node.type.bw_ct_content_chapters
+    - node.type.bw_ct_content_detail
+id: node.bw_ct_content_chapters.field_ct_content
+field_name: field_ct_content
+entity_type: node
+bundle: bw_ct_content_chapters
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      bw_ct_content_detail: bw_ct_content_detail
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

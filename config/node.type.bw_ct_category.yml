@@ -1,0 +1,18 @@
+uuid: 2369f3f6-e407-4e75-aaf5-66b0ce5f5ead
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Category
+type: bw_ct_category
+description: 'Category node pages'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

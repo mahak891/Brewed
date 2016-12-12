@@ -1,0 +1,28 @@
+uuid: bf359d0d-2727-4644-9d23-26bdefb6dd5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_tags
+    - node.type.bw_ct_content_detail
+    - taxonomy.vocabulary.tags
+id: node.bw_ct_content_detail.field_ct_tags
+field_name: field_ct_tags
+entity_type: node
+bundle: bw_ct_content_detail
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
