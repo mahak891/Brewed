@@ -1,0 +1,22 @@
+uuid: fef917fe-7e17-47d3-a555-bae7ae2537b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - brewed_theme
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: brewed_theme_powered
+theme: brewed_theme
+region: footer
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

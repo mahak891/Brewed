@@ -1,0 +1,22 @@
+uuid: 1f0a71be-20e2-4cb7-a086-8566c12cb4a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - brewed_theme
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: brewed_theme_help
+theme: brewed_theme
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

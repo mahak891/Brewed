@@ -1,0 +1,14 @@
+uuid: 14de20a4-277e-4ecd-be7c-449f2a1466aa
+name: mydrupal
+mail: mahak.jain@innoraft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

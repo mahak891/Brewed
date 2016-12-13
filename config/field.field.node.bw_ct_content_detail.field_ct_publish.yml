@@ -1,0 +1,23 @@
+uuid: 189808ad-3266-44ed-ad84-db739575fb16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_publish
+    - node.type.bw_ct_content_detail
+  module:
+    - options
+id: node.bw_ct_content_detail.field_ct_publish
+field_name: field_ct_publish
+entity_type: node
+bundle: bw_ct_content_detail
+label: 'Publish ?'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: private
+default_value_callback: ''
+settings: {  }
+field_type: list_string

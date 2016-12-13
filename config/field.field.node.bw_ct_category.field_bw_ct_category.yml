@@ -1,0 +1,28 @@
+uuid: 12df902c-85f0-44f7-8fe5-c4f8ce863fef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bw_ct_category
+    - node.type.bw_ct_category
+    - taxonomy.vocabulary.vocab_category
+id: node.bw_ct_category.field_bw_ct_category
+field_name: field_bw_ct_category
+entity_type: node
+bundle: bw_ct_category
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vocab_category: vocab_category
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

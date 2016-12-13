@@ -1,0 +1,30 @@
+uuid: 5a809490-032a-41ce-8509-01a607ffa17a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ct_publish
+field_name: field_ct_publish
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: world
+      label: 'To World'
+    -
+      value: group
+      label: 'To Group'
+    -
+      value: private
+      label: 'Keep it to myself'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

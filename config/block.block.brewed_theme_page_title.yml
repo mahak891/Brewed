@@ -1,0 +1,20 @@
+uuid: de633861-c202-4ce6-a361-00f131ccfb7e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - brewed_theme
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: brewed_theme_page_title
+theme: brewed_theme
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

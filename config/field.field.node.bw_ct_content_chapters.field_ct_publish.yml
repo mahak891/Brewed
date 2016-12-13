@@ -1,0 +1,23 @@
+uuid: 1a03aa14-9b2d-4474-8a8b-42ff1f2ff416
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_publish
+    - node.type.bw_ct_content_chapters
+  module:
+    - options
+id: node.bw_ct_content_chapters.field_ct_publish
+field_name: field_ct_publish
+entity_type: node
+bundle: bw_ct_content_chapters
+label: 'Publish ?'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: private
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: 08158b7d-cbb5-4170-a234-55d00f5278b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - brewed_theme
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: brewed_theme_content
+theme: brewed_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
